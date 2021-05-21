@@ -1,0 +1,151 @@
+/*Our Services*/
+
+.service-container {
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*Services heading*/
+
+
+
+.service-heading {
+    padding-left: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.service-heading .line-service  {
+    width: 200px;
+    height: 1px;
+    border: 2px solid black;
+}
+
+.service-heading h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.service-heading  span {
+    color: #FF3334;
+}
+
+/*End of our services heading*/
+
+/*Service Description*/
+
+.service-description {
+    margin: 0;
+    padding: 60px;  
+}
+
+.service-content {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+.service-content .icons {
+    margin: 0; 
+    display: flex;
+    flex-direction: row;
+   
+}
+
+/*Column of icon*/
+.icon-column{
+    position: relative;
+    display: flex;
+}
+/*End of coumn of icon*/
+
+.service-content .icons .icon-a, .icon-b, .icon-c, .icon-d h4 {
+    padding: 30px;
+    width: 225px;
+    height: 250px;
+    font-size: 26px; 
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: black; 
+    background: #C4C4C4;
+}
+
+.service-content .icons   p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 29px;
+}
+
+.service-content .icons .icon-a {
+    display: flex;
+    flex-wrap: wrap;
+    margin:50px;
+    margin-top: 90px;
+}
+.service-content .icons .icon-b {
+    display: flex;
+    flex-wrap: wrap;
+    margin:20px;
+}
+
+.service-content .icons .icon-c {
+    margin-left:50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service-content .icons .icon-d {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service-content .service-details {
+    margin: 0px;
+    padding: 100px;
+    position: relative;
+   
+}
+.service-content .service-details h4 {
+    position: absolute;
+    width: 423px;
+    height: 113px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    color: var(--black);
+}
+
+.service-content .service-details p {
+    position: absolute;
+    width: 432px;
+    height: 70px;
+    top: 220px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    color: var(--black);
+}
+
+.service-button {
+    position: absolute;
+    width: 228px;
+    height: 71px;
+    top: 335px;
+    border-radius: 15px;
+}
+
+/*End of our services*/

@@ -1,0 +1,140 @@
+/*Footer contain*/
+
+footer{
+    margin: 0;
+    padding: 90px;
+    width: 100%;
+    height: 590px;
+    background-color: #030305;
+}
+
+.footer-logo {
+    padding-left: 30px;
+}
+
+.lines {
+     margin: 30px;
+ }
+
+.footer-container {
+    padding-left: 30px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+}
+
+.foot-a {
+    flex: 1;
+}
+
+
+.footer-container h3 {
+    width: 276px;
+    height: 75px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    color: #FFFFFF;
+}
+
+footer .footer-container .abouts-footer .icon {
+    margin: 10px;  
+}
+
+::placeholder {
+    color: #212529;
+}
+
+
+footer .footer-container .news-letter .icon input {
+    padding: 8px 22px;
+    font-size: 13px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    margin-top: 20px;
+    width: 100%; 
+}
+
+
+.footer-container p {
+    position: absolute;
+    width: 276px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+
+    color: #C5C5C5;
+}
+
+footer .abouts-footer img {
+    margin-top: 50px;
+}
+
+footer .important-link {
+    width: 127px;
+}
+
+footer .contact-info {
+    width: 225px;
+}
+footer .news-letter {
+    width: 277px;
+}
+
+footer  .paperplane {
+    margin-top: 90px;
+    position: relative;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    width: 250px;
+    height: 40px;
+    
+}
+
+footer .paperplane input {
+    width: 250px;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+  
+}
+
+footer .paperplane input::placeholder {
+    text-align: center;
+}
+
+footer .paperplane input:focus{
+    outline: none;
+}
+
+footer .paperplane .buttons {
+    background-color: #FF3334;
+    border-radius: 20px;
+    width: 70px;
+    border: none;
+}
+
+
+footer .copyright {
+    margin: 0px;
+}
+
+
+footer .copyright-text {
+    text-align: center;
+   
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+   
+    color: #C5C5C5;
+}
+
+/*End of footer*/

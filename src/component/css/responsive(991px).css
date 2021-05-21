@@ -1,0 +1,213 @@
+@media screen and (max-width: 991px) {
+    /* start of large tablet styles */
+    * {
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .container{
+        clear:both;
+        overflow:auto;
+        margin: 0;
+        padding: 0px;
+    
+        background: linear-gradient(88.72deg, #FE6E6E 0.95%, rgba(255, 50, 50, 0.458333) 54.01%, rgba(255, 255, 255, 0) 98.91%), url(../img/background.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        object-fit: cover;
+    
+        height: 650px;
+        width: 100%;
+    }
+
+    /*Heading*/
+
+        .heading {
+            position: absolute;
+            width: 800px;
+            height: 54px;
+            left: 90px;
+            top: 300px;
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 35px;
+            line-height: 54px;
+            color: var(--light);
+        }
+
+        .heading .sub-heading {
+            position: absolute;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 45px;
+            line-height: 50px;
+            color: var(--light);
+        }
+
+        .description {
+            position: absolute;
+            width: 300px;
+            height: 52px;
+            left: 90px;
+            top: 470px;
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 100%;
+            color: var(--light);
+        }
+
+        /*End of Heading*/
+            
+
+       /*About Us*/
+
+       .about-container {
+        margin: 0;
+        padding: 20px;
+        height: 600px;
+    }
+
+    /*About Us heading*/
+
+    .about-heading {
+        padding-top: 30px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .line {
+        width: 150px;
+        height: 1px;
+        border: 2px solid #FF3334;
+    }
+
+    .about-heading h3 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+    .about-heading  span {
+        color: #FF3334;
+    }
+
+    /*End of About Us heading*/
+
+    /*About Description*/
+
+    .about-description {
+        margin: 0;
+        padding-top: 40px;
+    }
+
+    .about-description img {
+        height: 250px;
+        width: 250px;
+        border: 1px solid #000000;
+        box-shadow: 40px 40px 6px rgba(113, 104, 99, 0.52);
+    }
+
+    .about-content h4 {
+        position: absolute;
+        width: 300px;
+        height: 113px;
+        left: 400px;
+        top: 730px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        color: var(--black);
+    }
+
+    .about-content p {
+        position: absolute;
+        width: 300px;
+        height: 66px;
+        left: 400px;
+        top: 820px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: var(--black);
+    }
+
+    .about-button {
+        position: absolute;
+        width: 228px;
+        height: 71px;
+        left: 400px;
+        top: 950px;
+        border-radius: 15px;
+    }
+
+
+    .demo-num-1 {
+        position: absolute;
+        width: 105px;
+        height: 80px;
+        left: 400px;
+        top: 1050px;
+
+        font-family: 'Segoe UI'; 
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 25px;
+        color: var(--black);
+    }
+
+    .demo-num-2 {
+        position: absolute;
+        width: 105px;
+        height: 80px;
+        left: 500px;
+        top: 1050px;
+
+        font-family: 'Segoe UI'; 
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 25px;
+        color: var(--black);
+    }
+
+    .demo-num-3 {
+        position: absolute;
+        width: 105px;
+        height: 80px;
+        left: 600px;
+        top: 1050px;
+
+        font-family: 'Segoe UI'; 
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 25px;
+        color: var(--black);
+    }
+
+    .demo {
+        font-size: 19px;
+        line-height: 15px;
+    }
+
+    /*End of About Us*/
+            
+
+
+    }

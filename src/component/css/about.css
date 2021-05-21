@@ -1,0 +1,137 @@
+/*About Us*/
+
+.about-container {
+    margin: 0;
+    padding: 100px;
+}
+
+/*About Us heading*/
+
+.about-heading {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.line {
+    width: 200px;
+    height: 1px;
+    border: 2px solid #FF3334;
+}
+
+.about-heading h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.about-heading  span {
+    color: #FF3334;
+}
+
+/*End of About Us heading*/
+
+/*About Description*/
+
+.about-description {
+    margin: 0;
+    padding-top: 60px;
+}
+
+.about-description img {
+    border: 1px solid #000000;
+    box-shadow: 81px 82px 6px rgba(113, 104, 99, 0.52);
+}
+
+.about-content h4 {
+    position: absolute;
+    width: 423px;
+    height: 113px;
+    left: 750px;
+    top: 1050px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    color: var(--black);
+}
+
+.about-content p {
+    position: absolute;
+    width: 532px;
+    height: 66px;
+    left: 750px;
+    top: 1200px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    color: var(--black);
+}
+
+.about-button {
+    position: absolute;
+    width: 228px;
+    height: 71px;
+    left: 750px;
+    top: 1325px;
+    border-radius: 15px;
+}
+
+
+.demo-num-1 {
+    position: absolute;
+    width: 105px;
+    height: 80px;
+    left: 750px;
+    top: 1450px;
+
+    font-family: 'Segoe UI'; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 25px;
+    color: var(--black);
+}
+
+.demo-num-2 {
+    position: absolute;
+    width: 105px;
+    height: 80px;
+    left: 950px;
+    top: 1450px;
+
+    font-family: 'Segoe UI'; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 25px;
+    color: var(--black);
+}
+
+.demo-num-3 {
+    position: absolute;
+    width: 105px;
+    height: 80px;
+    left: 1150px;
+    top: 1450px;
+
+    font-family: 'Segoe UI'; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 25px;
+    color: var(--black);
+}
+
+.demo {
+    font-size: 19px;
+    line-height: 15px;
+}
+
+/*End of About Us*/

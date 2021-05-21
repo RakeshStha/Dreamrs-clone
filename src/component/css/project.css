@@ -1,0 +1,178 @@
+/*Our Project*/
+
+.project-container {
+    margin: 0;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+.project-heading {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.project-heading .line-project {
+    width: 200px;
+    height: 1px;
+    border: 2px solid black;
+}
+
+.project-heading h3 {
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.project-heading span {
+    color: #FF3334;
+}
+
+.project-content {
+    margin: 0px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    
+}
+
+.project-content h4 {
+    width: 423px;
+    height: 113px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    color: var(--black);
+}
+
+.project-content span {
+    color: #FF3334;
+}
+
+.button-items-project {
+    margin: 0;
+}
+
+.architecture-button {
+    width: 156px;
+    height: 54px;
+    background: #FF3334;
+}
+
+.interior-button {
+    width: 121px;
+    height: 54px;
+}
+
+.exterior-button {
+    width: 121px;
+    height: 54px;
+}
+
+.drafting-button {
+    width: 211px;
+    height: 54px;
+}
+
+/*Project images*/
+
+.project-flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+/*Img a*/
+.img-a {
+    margin: 0px;
+    padding-top : 30px;
+    padding-right: 30px;
+    position: relative;
+ 
+    width: 650px;
+    height: 497px;
+}
+
+.items-a{
+    position: absolute;
+    padding: 40px;
+    top:336px;
+    width: 330px;
+    height: 161px;
+    background-color: var(--light);
+}
+
+.items-a h4 {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 28px;
+    color: #FF3334;
+}
+
+.items-a p {
+    text-align: left;
+    width: 300px;
+    height: 68px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 34px;
+}
+
+/*img b*/
+
+.img-b {
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    padding-top: 20px;
+    width: 100%;
+    height: 598px;
+}
+
+.items-b{
+    position: absolute;
+    padding: 40px;
+    top:437px;
+    width: 330px;
+    height: 161px;
+    background-color: var(--light);
+}
+
+.items-b h4 {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 28px;
+    color: #FF3334;
+}
+
+.items-b p {
+    text-align: left;
+    width: 300px;
+    height: 68px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 34px;
+}
+
+
+/*End of project images*/
+
+/*End of Our Project*/

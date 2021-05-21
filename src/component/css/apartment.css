@@ -1,0 +1,89 @@
+/*Luxuries Apartment*/
+
+.luxuries-container {
+    margin: 0; 
+}
+
+.luxuries-heading > div {
+    padding-left: 100px;
+    
+}
+
+.luxuries-heading .head-lux {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.luxuries-heading .line-luxuries  {
+    width: 200px;
+    height: 1px;
+    border: 2px solid black;
+}
+
+.luxuries-heading h3 {
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.luxuries-heading span {
+    color: #FF3334;
+}
+
+
+.luxuries-container .gallery {
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.photo-row {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-b {
+    margin: 0;
+    padding-top: 0px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+
+.luxuries-container .gallery .photo-a {
+    flex: 1; 
+    width: 787px;
+    height: 301px; 
+}
+
+.luxuries-container .gallery .photo-b {
+    flex: 1;
+    width: 414px;
+    height: 350px;
+}
+
+.luxuries-container .gallery .photo-c {
+    flex: 1;
+    width: 373px;
+    height: 349px;
+}
+
+.luxuries-container .gallery .photo-d {
+    flex: 1;
+    width: 646px;
+    height: 651px;
+    
+}
+
+/* End of luxuries Apartment*/

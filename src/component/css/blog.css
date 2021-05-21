@@ -1,0 +1,93 @@
+/* Our Blog*/
+
+.blog-container {
+    margin: 0;
+    padding: 100px;
+}
+
+.blogs {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.blog-col{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.blog-container .blog-contents {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 50px;
+}
+
+.blog-container .blog-contents .blog-1 {
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 18px;
+    width: 730px;
+    height: 585px;
+    border: 1px solid grey;
+ 
+
+}
+
+.blog-container .blog-contents .blog-2 {
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 25px;
+    width: 100%;
+    height: 282px;
+    border: 1px solid grey;
+   
+    
+}
+
+.blog-detail {
+    margin: 0;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    background-color: var(--blog);
+}
+
+
+/*Blog heading*/
+
+.blog-heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    margin-top: 8px;
+}
+
+.blog-date{
+    margin-top: 8px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 499;
+    font-size: 14px;
+}
+
+.blog-date span{
+    color: #FF3334;
+}
+
+/*End of blog heading*/
+
+.blog-container .blog-contents .blog-3 {
+    margin: 0;
+    padding: 10px;
+    height: 300px;
+    width: 50%;
+    border: 1px solid black;
+
+}
+
+/* End of our Blog*/
